@@ -2,8 +2,7 @@ body {
     font-family: Arial, sans-serif;
     background-color: #ffeef7;
     text-align: center;
-    margin: 0;
-    padding: 0;
+
 }
 
 .container {
@@ -13,6 +12,13 @@ body {
     margin: 20px auto;
     padding: 20px;
     border-radius: 10px;
+}
+
+button {
+    background-color:pink;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 10px;
+    font-size: 20px;
 }
 
 h1 {
@@ -33,6 +39,7 @@ p {
     justify-content: center;
     gap: 20px;
     margin: 20px 0;
+    padding: 20px;
 }
 
 .smoothie-img {
@@ -40,6 +47,17 @@ p {
     height: 200px;
     object-fit: cover;
     border-radius: 8px;
+    margin: 8px;
+}
+
+select {
+    background-color: #ffeef7;
+    border-color: #cc4a85;
+    border-radius: 5px;
+    padding: 5px;
+    width: 130px;
+    text-align: center;
+    
 }
 
 ul, ol {
